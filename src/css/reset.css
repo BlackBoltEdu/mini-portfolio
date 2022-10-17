@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #15D1FF #070d12;
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+  
+*::-webkit-scrollbar-track {
+    background: #070d12;
+    border-radius: 20px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #15D1FF;
+    box-shadow: 0 0 5px #15D1FF;
+    border-radius: 20px;
+    border: 2px solid #070d12;
+}
